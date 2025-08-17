@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-SingleDay: "Single Day", cursive;
+
+  --color-BG-Primary: #eef0f2;
+  --color-BG-Secondary: #846a6a;
+  --color-BG-Dark: #00171f;
+  --color-Accent-Primary: #353b3c;
+  --color-Accent-Secondary: #a2999e;
+
+  --color-UI-1: #FFE588;
+  --color-UI-2: #FDD37F;
+  --color-UI-3: #FBC177;
+  --color-UI-4: #F9AF6E;
+  --color-UI-5: #F79D65;
+  --color-UI-6: #F35252;
+  --color-UI-7: #C1877E;
+  --color-UI-8: #90BDA9;
+  --color-UI-9: #5EF2D5;
+  --color-UI-10: #60B5FF;
+
+  --color-Text-Ligth: #F6EFEB;
+  --color-Text-Dark: #22223B;
+
+}
+

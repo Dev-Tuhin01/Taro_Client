@@ -57,7 +57,7 @@ const Progressbar = ({ currentItem, MaxItem, classNameOuter, classNameInner }: {
 };
 
 const BuyFoodModal = ({ onClose }: { onClose: () => void }) => {
-  const { user, updateUserLocally } = useAuthStore();
+  const { updateUserLocally } = useAuthStore();
   const [amount, setAmount] = useState(1);
 
   const handleSubmit = async () => {
